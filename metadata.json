@@ -1,0 +1,8 @@
+{
+  "name": "Ana & Yulian — Our Little World",
+  "description": "An intimate, Apple-inspired digital photo album, memory book, and love letters for Ana and Yulian.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

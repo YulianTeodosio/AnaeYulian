@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="85%" stop-color="#FDFBF7"/>
+      <stop offset="100%" stop-color="#F7E7E8"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#6B2D38" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Circular background badge -->
+  <circle cx="64" cy="64" r="60" fill="url(#bgGrad)" stroke="#E5B4B9" stroke-width="2.5" />
+  <circle cx="64" cy="64" r="56" fill="none" stroke="#FAF7F5" stroke-width="1" />
+
+  <!-- Street perspective line -->
+  <path d="M22 104 L106 104 M34 104 L52 86 M94 104 L76 86" stroke="#E5B4B9" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Couple Silhouette Walking Hand in Hand -->
+  <g fill="#6B2D38" filter="url(#shadow)">
+    <!-- Woman (Ana) on the left -->
+    <!-- Curly Hair & Head -->
+    <path d="M47 32 C43 32 39 36 38 41 C37 44 36 47 38 50 C36 52 37 56 39 58 C38 61 40 64 43 65 C45 66 48 64 50 63 C52 64 55 64 57 62 C59 60 58 56 59 53 C61 50 60 45 59 42 C57 37 53 32 47 32 Z" />
+    <!-- Coat / Torso -->
+    <path d="M41 52 C37 56 35 63 34 71 C34 75 36 78 40 78 C44 78 47 78 50 78 C54 78 57 75 58 71 C58 64 56 56 52 52 Z" />
+    <!-- Legs / Pants -->
+    <path d="M37 77 L38 98 C38 100 41 101 43 100 L44 80 L49 80 L49 97 C49 99 52 100 54 99 L55 77 Z" />
+    
+    <!-- Man (Yulian) on the right -->
+    <!-- Head & Curls -->
+    <path d="M78 30 C74 30 71 33 71 37 C71 40 72 43 74 44 C74 46 76 48 78 48 C81 48 83 46 84 44 C86 42 86 39 85 36 C84 32 81 30 78 30 Z" />
+    <!-- Shirt / Torso -->
+    <path d="M70 47 C66 50 65 57 66 68 L88 68 C89 57 88 50 84 47 C81 45 74 45 70 47 Z" />
+    <!-- Legs / Trousers (one leg forward stepping) -->
+    <path d="M68 67 L70 95 C70 97 73 98 75 97 L76 73 L80 73 L83 99 C83 101 87 101 88 99 L87 67 Z" />
+
+    <!-- Holding hands together in the center -->
+    <path d="M51 60 C53 64 56 68 59 70 C61 71 64 70 65 67 C66 64 67 60 67 58 C65 57 62 58 60 59 C58 57 54 57 51 60 Z" />
+
+    <!-- Delicate bag held in right hand -->
+    <path d="M89 74 L90 77 L94 77 L93 74 Z M89 78 L87 97 L95 96 L96 78 Z" opacity="0.9" />
+  </g>
+
+  <!-- Tiny romantic heart accent floating above the couple -->
+  <path d="M63.5 24 C62 21 58 22 58 24.5 C58 27.5 63.5 31 63.5 31 C63.5 31 69 27.5 69 24.5 C69 22 65 21 63.5 24 Z" fill="#C88E96" opacity="0.85"/>
+</svg>
